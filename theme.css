@@ -1,0 +1,139 @@
+:root {
+  /* ==========================================
+     COLORS
+  ========================================== */
+
+  --color-bg: #F8FBFF;
+  --color-surface: #FFFFFF;
+
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4ED8;
+
+  --color-board: #3B82F6;
+
+  --color-disc-red: #EF4444;
+  --color-disc-yellow: #FACC15;
+
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #64748B;
+
+  --color-border: #E2E8F0;
+
+  /* Overlay */
+  --color-backdrop: rgba(15, 23, 42, 0.65);
+
+  /* ==========================================
+     TYPOGRAPHY
+  ========================================== */
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Font Sizes */
+  --fs-h1: 64px;
+  --fs-h2: 40px;
+  --fs-h3: 28px;
+
+  --fs-body: 18px;
+  --fs-button: 18px;
+
+  /* Font Weights */
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+
+  /* Line Heights */
+  --lh-h1: 72px;
+  --lh-h2: 48px;
+  --lh-h3: 36px;
+  --lh-body: 28px;
+
+  /* ==========================================
+     SPACING SYSTEM (8px Grid)
+  ========================================== */
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-10: 80px;
+
+  /* ==========================================
+     BORDER RADIUS
+  ========================================== */
+
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-board: 32px;
+  --radius-full: 9999px;
+
+  /* ==========================================
+     SHADOWS
+  ========================================== */
+
+  --shadow-card:
+    0 4px 12px rgba(15, 23, 42, 0.05),
+    0 2px 6px rgba(15, 23, 42, 0.03);
+
+  --shadow-modal:
+    0 24px 64px rgba(15, 23, 42, 0.18),
+    0 12px 32px rgba(15, 23, 42, 0.12);
+
+  --shadow-button:
+    0 8px 20px rgba(37, 99, 235, 0.18);
+
+  /* ==========================================
+     COMPONENT SIZES
+  ========================================== */
+
+  --header-height: 96px;
+
+  --button-height: 64px;
+  --button-padding-x: 32px;
+
+  --icon-button-size: 56px;
+
+  --score-card-width: 240px;
+  --score-card-height: 120px;
+
+  --theme-card-width: 140px;
+  --theme-card-height: 120px;
+
+  /* ==========================================
+     CONNECT FOUR BOARD
+  ========================================== */
+
+  --board-width: 900px;
+  --board-height: 760px;
+
+  --board-columns: 7;
+  --board-rows: 6;
+
+  --cell-size: 96px;
+  --cell-gap: 16px;
+
+  --disc-size: 80px;
+
+  /* ==========================================
+     MODALS
+  ========================================== */
+
+  --result-modal-width: 640px;
+  --result-modal-height: 560px;
+
+  --settings-modal-width: 900px;
+  --settings-modal-height: 650px;
+
+  /* ==========================================
+     TRANSITIONS
+  ========================================== */
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+}
