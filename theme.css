@@ -105,8 +105,11 @@
   --theme-card-height: 120px;
 
   /* ==========================================
-     CONNECT FOUR BOARD
+     CONNECT FOUR BOARD  & HOME PAGE IMG SIZES
   ========================================== */
+
+  --img-width: 500px;
+  --img-height: 300px;
 
   --board-width: 900px;
   --board-height: 760px;
