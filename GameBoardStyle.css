@@ -1,0 +1,42 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+  padding-top: var(--space-1);
+  padding-bottom: var(--space-1);
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  display: flex;
+  padding-left: var(--space-6);
+  padding-right: var(--space-6);
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-primary);
+}
+header div {
+  border: var(--border-standard);
+  border-radius: var(--radius-ex-sm);
+  padding: 1px var(--space-sm);
+}
+/* main .score-board{} */

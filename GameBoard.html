@@ -1,11 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GameBoard</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <link rel="stylesheet" href="/GameBoardStyle.css">
+  <link rel="stylesheet" href="/theme.css">
+  <body>
+    <header>
+      <div class=""><i class="fa-solid fa-bars" style="color: var(--color-text-secondary)"></i></div>
+      <h1>Connect Four</h1>
+      <div class="">
+        <i
+          class="fa-solid fa-gear fa-spin"
+          style="color: var(--color-text-secondary)"
+        ></i>
+      </div>
+    </header>
+    <main>
+      <section class="score-board">
+        <div class="Player-1">
+          <p>Player 1</p>
+          <h3>12</h3>
+        </div>
+        <div class="turn-shower"></div>
+        <div class="Player-2">
+          <p>Player 2</p>
+          <h3>18</h3>
+        </div>
+      </section>
+      <section class="game-board">
+        <img
+          src="/assets/Game Board.png"
+          alt="Please Wait For the Game-Board to Load"
+        />
+      </section>
+    </main>
+    <footer>
+      <button class="btn">
+        <i class="fa-solid fa-house fa-sm" style="color: rgb(10, 9, 9)"></i><p>Home</p>
+      </button>
+      <button class="btn">
+        <i class="fa-solid fa-arrows-rotate" style="color: rgb(10, 9, 9)"></i><p>Restart</p>
+      </button>
+      <button class="btn">
+        <i class="fa-solid fa-plus" style="color: rgb(10, 9, 9)"></i><p>New Match</p>
+      </button>
+    </footer>
+  </body>
 </html>
