@@ -30,12 +30,14 @@
   --font-body: "Inter", sans-serif;
 
   /* Font Sizes */
+  --fs-h4:20px;
   --fs-h1: 64px;
   --fs-h2: 40px;
   --fs-h3: 28px;
 
   --fs-body: 18px;
   --fs-button: 18px;
+  --fs-sm: 14px;
 
   /* Font Weights */
   --fw-bold: 700;

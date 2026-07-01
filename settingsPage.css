@@ -1,0 +1,115 @@
+/* ==========================================
+   CSS BOILERPLATE
+========================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+body {
+  position:absolute;
+  height: var(--settings-modal-height);
+  width: var(--settings-modal-width);
+  border-radius: var(--radius-sm);
+  background-color: rgb(217, 233, 233);
+  padding: var(--space-3) var(--space-5);
+  /* background-color: var(--color-bg); */
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-body);
+  overflow-x: hidden;
+  left: 35vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+/* 
+main {
+  min-height: 100%;
+  width: 100%;
+} */
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
+
+img {
+  max-width: auto;
+  height: 100px;
+  display: block;
+  border-radius: var(--radius-sm);
+  /* min-height:50px; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h2);
+}
+header p {
+  margin-top: 6px;
+  color:var(--color-text-secondary)
+}
+header i{
+  color:var(--color-text-secondary)
+}
+main .theme-selection{
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+main .theme-selection h3{
+  font-family: var(--font-heading);
+  font-size: var(--fs-h4);
+}
+main .theme-selection .theme-heading{
+  display: flex;
+  align-items: center;
+  gap:var(--space-1)
+}
+main .theme-selection .theme-heading i {
+  color: var(--color-primary);
+  font-size: large;
+}
+main .theme-selection .themes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+main .theme-selection .themes .theme{
+  display: flex;
+  flex-direction: column;
+}
+main .theme-selection .themes .theme div {
+  display: flex;
+  justify-content: space-between;
+}
+

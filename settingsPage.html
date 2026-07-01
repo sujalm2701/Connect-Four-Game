@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="settingsPage.css" />
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Game Settings</h1>
+        <p>Personalize your Connect Four experience</p>
+      </div>
+      <i class="fa-solid fa-xmark"></i>
+    </header>
+    <main>
+      <section class="theme-selection">
+        <div class="theme-heading">
+          <i class="fa-solid fa-palette fa-float"></i>
+          <h3>Theme Selection</h3>
+        </div>
+        <div class="themes">
+          <div class="light-theme theme">
+            <img src="/assets/DefaultTheme.jpeg" alt="Default Theme" />
+            <div class="">
+              <p>Classic Blue</p>
+              <input type="radio" name="DefaultTheme" id="DefaultTheme" />
+              <!-- <i
+              class="fa-solid fa-check fa-2xs"
+              style="color: rgb(28, 30, 32)"
+            ></i> -->
+            </div>
+          </div>
+          <div class="dark-theme theme">
+            <img src="/assets/DarkTheme.jpeg" alt="Dark Theme" />
+            <div class="">
+              <p>Dark Mode</p>
+              <input type="radio" name="DarkTheme" id="DarkTheme" />
+            </div>
+          </div>
+          <div class="ocean-theme theme">
+            <img src="/assets/BlueTheme.jpeg" alt="Ocean Theme" />
+            <div class="">
+              <p>Ocean</p>
+              <input type="radio" name="OceanTheme" id="OceanTheme" />
+            </div>
+          </div>
+          <div class="sunset-theme theme">
+            <img src="/assets/OrangeTheme.jpeg" alt="Sunset Theme" />
+            <div class="">
+              <p>Sunset</p>
+              <input type="radio" name="SunsetTheme" id="SunsetTheme" />
+            </div>
+            
+          </div>
+          <div class="forest-theme theme">
+            <img src="/assets/GreenTheme.jpeg" alt="Forest Theme" />
+            <div class="">
+              <p>Forest</p>
+              <input type="radio" name="ForestTheme" id="ForestTheme" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="preferences">
+        <div class="pref-box">
+          <div class="pref-heading">
+            <i class="fa-solid fa-sliders"></i>
+            <h3>Preferences</h3>
+          </div>
+          <div class="sound-pref">
+            <i class="fa-solid fa-volume-high"></i>
+            <div>
+              <h4>Sound Effect</h4>
+              <p>Game Audio and clicks</p>
+            </div>
+            <div class="toggle-btn"></div>
+          </div>
+          <div class="animation-pref">
+            <i class="fa-solid fa-play"></i>
+            <div>
+              <h4>Animations</h4>
+              <p>Animations and page transitions</p>
+            </div>
+            <div class="toggle-btn"></div>
+          </div>
+        </div>
+        <div class="local-storage">
+          <div>
+            <i class="fa-solid fa-info"></i>
+            <h4>Local Storage</h4>
+          </div>
+          <p>
+            Your settings, high scores, and active match progress are stored
+            locallyin the browser. Clearing your browser cache will reset these
+            values to default
+          </p>
+        </div>
+        <div class="placeholder"></div>
+      </section>
+    </main>
+    <footer>
+      <button>Cancel</button>
+      <button>Save Changes</button>
+    </footer>
+  </body>
+</html>
